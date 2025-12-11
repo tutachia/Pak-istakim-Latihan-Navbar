@@ -2,6 +2,7 @@
 	<head>
 		<title>Latihan Navbar</title>
 		<style>
+		
 				.navbar {
 					position: flex;
 					width: 100%;
@@ -58,11 +59,73 @@
 					border-radius: 50%;
 					padding: 10px 10px 10px;
 				}
-				
-		</style>		
+		
+			.card1 {
+				width: 300px;
+				border: 1px solid #ddd;
+				border-radius: 10px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				overflow: hidden;
+				text-align: center;
+				margin: 5px;
+			}
+			
+			.card1:hover {
+				background-color: pink;
+				color: white;
+			}
+			.card1-img {
+				height: 250; 
+				width: 300;
+				object-fit: cover;
+				align-items: center;
+			}
+			
+			.card1-btn {
+				background-color: gray;
+				border: none;
+				border-radius: 5px;
+				padding: 5px 10px;
+				cursor: pointer;
+				margin: 10px 0 15px;
+			}
+			
+			.card1-title {
+				font-size: 25px;
+				margin: 10px 0 5px;
+			}
+			
+			.card1-subtitle {
+				font-size: 15px;
+				color: #555;
+				padding: 0 10px
+			}
+			
+			.card2 {
+				width: 300px;
+				border: 1px solid #ddd;
+				border-radius: 10px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				overflow: hidden;
+				text-align: center;
+				margin: 5px
+			}
+			
+			.card2:hover {
+				background-color: pink;
+				color: white;
+			}
+			.card2-img {
+				height: 250; 
+				width: 300;
+				object-fit: cover;
+				align-items: center;
+			}
+			
+		</style>
 	</head>
-	
 	<body>
+
 		<nav class="navbar">
 		<div class="logo">
 			<i>STARK</i>
@@ -74,10 +137,19 @@
 				<li><a href="C:\vandjalu\PPLG X-2\Pak Istakim\materi 3- latihan navbar\Data pengunjung.html">Data Pengungjung</a></li>
 			</ul>
 		</nav>
-		<section id="content">
-			<h1>Selamat Datang!</h1>
-			<p>Selamat menikmati!!</p>
-		</section>
+	
+		<center>Daftar Kunjungan</center>
+		<div class="card1">
+			<img src="C:\Users\LENOVO\OneDrive\Pictures\Camera Roll\WIN_20251211_10_37_33_Pro.jpg" class="card1-img">
+			<h4 class="card1-title">Vandjalu Gani</h4>
+			<p class="card1-subtitle">Akun Profesional | Hacker | Data scientist</p>
+			<button class="card1-btn">Look Profile</button>
+		</div>
 		
+		<div class="card2">
+			<img src="C:\Users\LENOVO\OneDrive\Pictures\Camera Roll\WIN_20251021_10_25_51_Pro.jpg" class="card2-img">
+			<h4>Vanzgni</h4>
+			<p>Akun Noob | pengcoding html | html designer</p>
+		</div>
 	</body>
 </html>
